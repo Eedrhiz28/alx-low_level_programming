@@ -8,7 +8,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i = 0, j:
+	int i = 0, j;
 		int matches = 0;
 
 	while (s[i] != '\0') /*iterate through string*/
@@ -26,6 +26,6 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		i++;
 	}
-	return (matches); /* return num if all mtch till end */
+	return (matches); /* return num if all match till end */
 
 }
